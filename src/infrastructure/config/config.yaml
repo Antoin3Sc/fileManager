@@ -1,0 +1,20 @@
+### General config
+logs_path: './logs/'
+duplicated_logs_file: 'duplicated_content.log'
+error_logs_file: 'error.log'
+local_disc: 'Macintosh HD'
+base_volume_path: '/Volumes'
+excluded_folders:
+  - .DS_Store
+  - Macintosh HD
+
+### Backup config
+storage_disc_name: Photos
+data_folders:
+  - DCIM
+
+### Geolocation config
+stored_locations_file: './export/stored_location.csv'
+
+### Encrypt config
+key_path: './keys/.keys'
